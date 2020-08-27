@@ -6,7 +6,7 @@
     <description>Google AdMob SDK for Cordova</description>
     <author>tomitank</author>
     <keywords>admob,google,ad</keywords>
-    <repo>https://github.com/tomitank/cordova-admob-sdk.git</repo>
+    <repo>https://github.com/tomitank/cordova-admob-sdk</repo>
     <issue>https://github.com/tomitank/cordova-admob-sdk/issues</issue>
     <engines>
         <engine name="cordova" version=">=3.0" />
