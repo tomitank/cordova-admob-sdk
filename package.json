@@ -1,5 +1,5 @@
 {
-  "name": "cordova-admob-sdk",
+  "name": "cordova-admob-sdk-tomitank",
   "version": "1.0.0",
   "description": "Google AdMob SDK to Cordova.",
   "scripts": {
@@ -12,13 +12,13 @@
     "sync-package-version": "0.0.5"
   },
   "cordova": {
-    "id": "cordova-admob-sdk",
+    "id": "cordova-admob-sdk-tomitank",
     "platforms": [
       "android",
       "ios"
     ]
   },
-  "repository": "https://github.com/tomitank/cordova-admob-sdk",
+  "repository": "https://github.com/tomitank/cordova-admob-sdk-tomitank",
   "keywords": [
     "cordova",
     "ecosystem:cordova",
