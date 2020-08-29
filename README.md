@@ -1,2 +1,2 @@
 
- iOS 14 TrackingAuthorization 
+for cordova-plugin-admob-tomitank plugin
