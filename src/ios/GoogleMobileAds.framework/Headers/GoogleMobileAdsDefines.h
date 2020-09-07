@@ -2,7 +2,7 @@
 //  GoogleMobileAdsDefines.h
 //  Google Mobile Ads SDK
 //
-//  Copyright (c) 2015 Google Inc. All rights reserved.
+//  Copyright 2015 Google LLC. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -53,4 +53,11 @@
 #define GAD_STRING_ENUM NS_STRING_ENUM
 #else
 #error "Use latest Xcode version."
+#endif
+
+// Pre-Xcode 11 versions must replace UIWindowScene with NSObject.
+#if __IPHONE_OS_VERSION_MAX_ALLOWED < 130000
+#ifndef UIWindowScene
+#define UIWindowScene NSObject
+#endif
 #endif

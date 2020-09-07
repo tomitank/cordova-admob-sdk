@@ -2,14 +2,14 @@
 //  GADNativeAd.h
 //  Google Mobile Ads SDK
 //
-//  Copyright 2015 Google Inc. All rights reserved.
+//  Copyright 2015 Google LLC. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <GoogleMobileAds/GoogleMobileAdsDefines.h>
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
+#import <GoogleMobileAds/GADResponseInfo.h>
+#import <GoogleMobileAds/GoogleMobileAdsDefines.h>
 
 @protocol GADNativeAdDelegate;
 
@@ -27,11 +27,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// Dictionary of assets which aren't processed by the receiver.
 @property(nonatomic, readonly, copy, nullable) NSDictionary *extraAssets;
 
+/// Information about the ad response that returned the ad.
+@property(nonatomic, readonly, nonnull) GADResponseInfo *responseInfo;
+
 /// The ad network class name that fetched the current ad. For both standard and mediated Google
 /// AdMob ads, this method returns @"GADMAdapterGoogleAdMobAds". For ads fetched via mediation
 /// custom events, this method returns @"GADMAdapterCustomEvents".
-@property(nonatomic, readonly, copy, nullable) NSString *adNetworkClassName;
+@property(nonatomic, readonly, copy, nullable)
+    NSString *adNetworkClassName GAD_DEPRECATED_MSG_ATTRIBUTE(
+        "Use responseInfo.adNetworkClassName.");
 
 @end
-
-NS_ASSUME_NONNULL_END

@@ -2,14 +2,20 @@
 //  GADVersionNumber.h
 //  Google Mobile Ads SDK
 //
-//  Copyright 2018 Google Inc. All rights reserved.
+//  Copyright 2018 Google LLC. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 /// Version number information.
-typedef struct {
-  NSInteger majorVersion;  ///< Major version.
-  NSInteger minorVersion;  ///< Minor version.
-  NSInteger patchVersion;  ///< Patch version.
-} GADVersionNumber;
+typedef struct GADVersionNumber GADVersionNumber;
+
+/// Version number information.
+struct GADVersionNumber {
+  /// Major version.
+  NSInteger majorVersion;
+  /// Minor version.
+  NSInteger minorVersion;
+  /// Patch version.
+  NSInteger patchVersion;
+};

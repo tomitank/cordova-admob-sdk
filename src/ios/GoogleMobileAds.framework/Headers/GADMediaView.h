@@ -2,14 +2,11 @@
 //  GADMediaView.h
 //  Google Mobile Ads SDK
 //
-//  Copyright 2019 Google Inc. All rights reserved.
+//  Copyright 2019 Google LLC. All rights reserved.
 //
 
 #import <GoogleMobileAds/GADMediaContent.h>
-#import <GoogleMobileAds/GoogleMobileAdsDefines.h>
 #import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
 
 /// Displays native ad media content.
 ///
@@ -30,5 +27,3 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, nullable) GADMediaContent *mediaContent;
 
 @end
-
-NS_ASSUME_NONNULL_END

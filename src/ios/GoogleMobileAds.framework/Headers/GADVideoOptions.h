@@ -2,13 +2,10 @@
 //  GADVideoOptions.h
 //  Google Mobile Ads SDK
 //
-//  Copyright 2016 Google Inc. All rights reserved.
+//  Copyright 2016 Google LLC. All rights reserved.
 //
 
 #import <GoogleMobileAds/GADAdLoader.h>
-#import <GoogleMobileAds/GoogleMobileAdsDefines.h>
-
-NS_ASSUME_NONNULL_BEGIN
 
 /// Video ad options.
 @interface GADVideoOptions : GADAdLoaderOptions
@@ -24,5 +21,3 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, assign) BOOL clickToExpandRequested;
 
 @end
-
-NS_ASSUME_NONNULL_END

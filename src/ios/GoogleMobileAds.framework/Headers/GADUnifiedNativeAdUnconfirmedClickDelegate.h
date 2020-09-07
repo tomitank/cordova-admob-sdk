@@ -2,13 +2,11 @@
 //  GADUnifiedNativeAdUnconfirmedClickDelegate.h
 //  Google Mobile Ads SDK
 //
-//  Copyright 2017 Google Inc. All rights reserved.
+//  Copyright 2017 Google LLC. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-
 #import <GoogleMobileAds/GADUnifiedNativeAdAssetIdentifiers.h>
-#import <GoogleMobileAds/GoogleMobileAdsDefines.h>
 
 @class GADUnifiedNativeAd;
 

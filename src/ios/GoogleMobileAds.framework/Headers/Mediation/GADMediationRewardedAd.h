@@ -2,7 +2,7 @@
 //  GADMediationRewardedAd.h
 //  Google Mobile Ads SDK
 //
-//  Copyright 2018 Google Inc. All rights reserved.
+//  Copyright 2018 Google LLC. All rights reserved.
 //
 
 #import <GoogleMobileAds/Mediation/GADMediationAd.h>
@@ -15,5 +15,6 @@
 - (void)presentFromViewController:(nonnull UIViewController *)viewController;
 @end
 
+/// Rewarded ad configuration.
 @interface GADMediationRewardedAdConfiguration : GADMediationAdConfiguration
 @end

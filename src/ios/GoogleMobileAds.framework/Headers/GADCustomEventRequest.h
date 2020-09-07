@@ -2,16 +2,13 @@
 //  GADCustomEventRequest.h
 //  Google Mobile Ads SDK
 //
-//  Copyright 2012 Google Inc. All rights reserved.
+//  Copyright 2012 Google LLC. All rights reserved.
 //
 
 #import <GoogleMobileAds/GADRequest.h>
-#import <GoogleMobileAds/GoogleMobileAdsDefines.h>
 #import <UIKit/UIKit.h>
 
 @class GADCustomEventExtras;
-
-NS_ASSUME_NONNULL_BEGIN
 
 /// Specifies optional ad request targeting parameters that are provided by the publisher and are
 /// forwarded to custom events for purposes of populating an ad request to a 3rd party ad network.
@@ -56,5 +53,3 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, readonly, copy, nullable) NSDate *userBirthday GAD_DEPRECATED_ATTRIBUTE;
 
 @end
-
-NS_ASSUME_NONNULL_END
