@@ -18,12 +18,7 @@
         <framework src="com.google.android.gms:play-services-ads:$PLAY_SERVICES_VERSION" />
     </platform>
     <platform name="ios">
-        <!--<framework src="src/ios/UserMessagingPlatform.framework" custom="true" />
-        <framework src="src/ios/GoogleAppMeasurement.framework" custom="true" />
-        <framework src="src/ios/GoogleUtilities.xcframework" custom="true" />-->
         <framework src="src/ios/GoogleMobileAds.framework" custom="true" />
-        <!--<framework src="src/ios/PromisesObjC.xcframework" custom="true" />
-        <framework src="src/ios/nanopb.xcframework" custom="true" />-->
         <framework src="AdSupport.framework" />
         <framework src="AudioToolbox.framework" />
         <framework src="AVFoundation.framework" />
